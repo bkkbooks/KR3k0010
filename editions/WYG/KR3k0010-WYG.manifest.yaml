@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR3k0010/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3k0010/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 蒙求集註
+  date: '2015-08-24 23:27:57.062757'
+  source:
+    repository: kanripo
+    path: KR3k0010
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3k0010_000-WYG.yaml, hash: 'sha256:61aa41c416bc7b1794947a413716ea2840cdbeddb2200d0f1628222d819c5732'}
+  - {seq: 1, filename: KR3k0010_001-WYG.yaml, hash: 'sha256:f84aa5dfc3be69e8a74148e0dfbfafc4b308f73d5e9dd3714dc89592a1da402c'}
+  - {seq: 2, filename: KR3k0010_002-WYG.yaml, hash: 'sha256:b4b0b041090a460f5e345568947ddbf0e87d2cb308bf31091b537307c6003e16'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3k0010_000-WYG.markers.yaml, hash: 'sha256:187def8980263b0274043745cd58ce3dc05f99316b1149f148105cf46e6d22d1'}
+  - {seq: 1, role: markers, filename: assets/KR3k0010_001-WYG.markers.yaml, hash: 'sha256:d3d1f17e8739e642da4835852ae648457a614997c451f8b4cad671c83e6d1540'}
+  - {seq: 2, role: markers, filename: assets/KR3k0010_002-WYG.markers.yaml, hash: 'sha256:c652fe40b6373101eea533f2239d63f6c429285eb2e88c80137b7123562a0fab'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3k0010_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 496
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3k0010_WYG_000-4a
+    span:
+    - body
+    - 496
+    - 2886
+  label: 原文
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3k0010_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 38898
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3k0010_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 43566
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:e86b5d57ab5a64b50f0474b85b48a5aef624a3e29117e16c970aa551a762ccfe
